@@ -1,1 +1,1 @@
-web:nodemon ./src/app.ts
+web:node -r tsconfig-paths/register -r ts-node/register ./src/app.ts
