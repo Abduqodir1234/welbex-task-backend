@@ -14,6 +14,8 @@ export const configs = {
         },
     },
 
+    dbUrlConfig:process.env.DATABASE_URL,
+
 
     //JWT configs
 
