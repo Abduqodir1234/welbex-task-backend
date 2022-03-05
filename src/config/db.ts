@@ -9,7 +9,12 @@ dotenv.config();
 // const db_port = process.env.DB_PORT || "" 
 const DB_URL = process.env.DATABASE_URL|| ''
 export const db = new Sequelize(DB_URL,{
-    dialect:'postgres'
+    dialect:'postgres',
+    dialectOptions:{
+        ssl:{
+            rejectUnauthorized: false
+        }
+    }
 })
 
 let connectDB = async () =>{
