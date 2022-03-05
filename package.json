@@ -26,9 +26,6 @@
   "name": "nodejstest",
   "version": "1.0.0",
   "main": "index.js",
-  "engines": {
-    "node": "16.14.0"
-  },
   "nodemonConfig": {
     "ignore": [
       "**/*.test.ts",
@@ -48,5 +45,8 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "engines": {
+    "node": "16.14.0"
+  }
 }
