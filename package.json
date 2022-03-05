@@ -41,7 +41,7 @@
     "ext": "ts, js"
   },
   "scripts": {
-    "start": "nodemon ./src/app.ts"
+    "start": "node -r tsconfig-paths/register -r ts-node/register ./src/app.ts"
   },
   "keywords": [],
   "author": "",
